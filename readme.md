@@ -1,6 +1,6 @@
 # BLAS Bindings for Odin
 
-The `blas.odin` file contains a complete, but untested set of BLAS bindings to `version 3.12.0.2` of LAPACK. I was not able to get lapack to bind correctly due to fortran runtime, ucrt amongst other linking issues, I'm sure someone with more makefile experience could craft up a solution.
+The `blas.odin` file contains a complete, but untested set of BLAS bindings to `version 3.12.0.2` of LAPACK. I was not able to get lapack to bind correctly due to fortran runtime, ucrt amongst other linking issues, I'm sure someone with more makefile experience could craft up a solution. I have included the .a files for blas compiled on Win10 x64. You can compile them yourself per the instructions below.
 
 ## Compiling lapack from Source
 
